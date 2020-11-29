@@ -30,9 +30,7 @@ namespace TestApp001
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            string temp = textBox.Text;
-            textBox2.Text = temp;
-
+            textBox2.Text = textBox.Text;
         }
 
     }
